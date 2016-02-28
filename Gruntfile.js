@@ -72,7 +72,7 @@ module.exports = function (grunt) {
     connect: {
       options: {
         // Change this to '0.0.0.0' to access the server from outside.
-        hostname: 'http://javaopenness.azurewebsites.net/',
+        hostname: '0.0.0.0',
         livereload: 35729
       },
       proxies: [
